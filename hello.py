@@ -10,22 +10,22 @@
 #
 # print('1 + 2 + 3 =', 1+2+3)
 #
-# name = input()
-#
-# print('Hello, ', name)
+name = input()
+
+print('Hello, ', name)
 
 # n=100
 # print(n)
 
-first_name = 'John'
-last_name = 'Lennon'
-name = first_name + " " + last_name
+# first_name = 'John'
+# last_name = 'Lennon'
+# name = first_name + " " + last_name
 # print ('hello,', name)
 # print ('hello, {}! You are {} years old!'.format(name,20))
 # template = 'hello, {}! You are {} years old!'
 
-name1 = 'Grace'
-age1 = 20
+# name1 = 'Grace'
+# age1 = 20
 #
 # name2 = 'Aida'
 # age2 = 18
@@ -42,4 +42,4 @@ age1 = 20
 # print(math.pow(math.pi,5))
 # print(math.pi)
 
-print(2**38)
+# print(2**38)
