@@ -1,10 +1,10 @@
-# sum = 0
-# for i in range(100):
-#     print('in the {}th iteration, current i is {}, sum is {}'.format(i,i,sum))
-#     sum = sum + i
-#     print('\t after adding i, the new sum is {}'.format(sum))
-#
-# print(sum)
+sum = 0
+for i in range(100):
+    print('in the {}th iteration, current i is {}, sum is {}'.format(i,i,sum))
+    sum = sum + i
+    print('\t after adding i, the new sum is {}'.format(sum))
+
+print(sum)
 
 # sum = 0
 # for i in range(1,11):
@@ -21,7 +21,7 @@
 #
 # for letter in name:
 #     total_value = total_value + (ord(letter)-96)
-# print('The value of name is {} is {}.'.format(name, total_value))
+# print('The value of name {} is {}.'.format(name, total_value))
 
 def countdown(n):
     while n>0:

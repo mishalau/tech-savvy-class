@@ -11,13 +11,13 @@
 # for letter in team:
 #     print(letter)
 
-# prefixes = 'JKLMNOPQ'
-# suffix = 'ack'
-# for letter in prefixes:
-#     if letter == 'O' or letter == "Q": #you can also write this: if letter in 'OQ':
-#         print (letter + 'u' + suffix)
-#     else:
-#         print(letter + suffix)
+prefixes = 'JKLMNOPQ'
+suffix = 'ack'
+for letter in prefixes:
+    if letter == 'O' or letter == "Q": #you can also write this: if letter in 'OQ':
+        print (letter + 'u' + suffix)
+    else:
+        print(letter + suffix)
 #
 # result = 0
 # for number in range(1,1001):
@@ -56,12 +56,12 @@
 #         count = count + 1
 # print(count)
 
-# word = 'New England Patriots'
-# count = 0
-# for letter in word:
-#     if letter in 'aeiouAEIOU':
-#         count = count + 1
-# print(count)
+word = 'New England Patriots'
+count = 0
+for letter in word:
+    if letter in 'aeiouAEIOU':
+        count = count + 1
+print(count)
 #
 # name = 'Anna'
 # new_name = name[:2] + name[-1]
@@ -73,6 +73,6 @@ for letter in team:
     if letter != 'a':
         new_team = new_team + letter
 print(new_team)
-
-print(team.upper())
-print(team.find('w'))
+#
+# print(team.upper())
+# print(team.find('w'))
