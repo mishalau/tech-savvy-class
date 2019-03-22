@@ -34,10 +34,10 @@
 # name='Maddison'
 # t = list(name)
 # print(t)
-#
-# str_team = 'New England Patriots'
-# t = str_team.split() #convert string into separate words
-# print(t)
+
+str_team = 'New England Patriots'
+t = str_team.split() #convert string into separate words
+print(t)
 #
 # team_name = " ".join(t) #convert words back into string
 # print(team_name)
@@ -45,27 +45,27 @@
 #Dictionary
 names = ['Bailey', 'Maddison', 'Aob']
 scores = [60,90,100]
+#
+grades = dict()
+# grades = {} #tells Python creating a new dictionary
+# grades['Bailey'] = 60
+# grades['Maddison'] = 90
+# grades['Aob'] = 100
+# print(grades)
+# print(grades['Maddison'])
 
-#grades = dict()
-grades = {} #tells Python creating a new dictionary
-grades['Bailey'] = 60
-grades['Maddison'] = 90
-grades['Aob'] = 100
-print(grades)
-print(grades['Maddison'])
-
-grades['Aida'] = [99,98]
-print(grades)
-
-print('Penny' in grades) #not in key of dictionary so returns false
-print(len(grades)) #=4
-
-for name in grades.keys():
-    print(name)
-for score in grades.values():
-    print(score)
-for item in grades.items(): #gives you what is separated by comma
-    print(item)
+# grades['Aida'] = [99,98]
+# print(grades)
+#
+# print('Penny' in grades) #not in key of dictionary so returns false
+# print(len(grades)) #=4
+#
+# for name in grades.keys():
+#     print(name)
+# for score in grades.values():
+#     print(score)
+# for item in grades.items(): #gives you what is separated by comma
+#     print(item)
 
 
 
